@@ -4,7 +4,8 @@ class Helloworld {
 	}
 
 	greet() {
-		return `Hello World ${this.name}.`;
+		return `Hello World ${this.name}`;
 	}
 }
+
 export { Helloworld };
