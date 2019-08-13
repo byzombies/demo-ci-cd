@@ -1,14 +1,5 @@
 require('./style.css');
-
-class Helloworld {
-	constructor(name) {
-		this.name = name;
-	}
-
-	greet() {
-		return `Hello World ${this.name}`;
-	}
-}
+import { Helloworld } from './helloworld.js';
 
 if (ENVIRONMENT === 'production') {
 	console.info('Running app in the production environment!');

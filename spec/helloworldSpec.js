@@ -1,12 +1,4 @@
-class Helloworld {
-	constructor(name) {
-		this.name = name;
-	}
-
-	greet() {
-		return `Hello World ${this.name}.`;
-	}
-}
+import { Helloworld } from '../src/helloworld.js';
 
 describe('HelloWorld', function() {
 	it('should greet the user', function() {
